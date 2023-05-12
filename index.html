@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Mariam Gogaladze">
+  <meta name="description" content="ecomemerce-product">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORM</title>
+  <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="first-div">
+          <img id="menu" src="images/icon-menu.svg" alt="Menu">
+          <img id="logo" src="images/logo.svg" alt="Logo">
+          <ul>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><img id="close" src="images/icon-close.svg" alt="Close"></li>
+          </ul>
+        </div>
+        <div class="second-div">
+          <div class="cart-div">
+            <div class="quantity">
+              <h6>1</h6>
+            </div>
+            <img id="cart" src="images/icon-cart.svg" alt="Cart">
+            <div class="chosen-products">
+              <h5>Cart</h5>
+              <div id="inside-cart">
+                <div id="added">
+                  <img class="dc" src="images/image-product-1-thumbnail.jpg" alt="Product 1 Thumbnail">
+                  <div id="info">
+                    <p class="info-p">Fall limited Edition Sneakers</p>
+                    <p class="info-p">$125.00 x <span id="addedNmb" style="color:hsl(219, 9%, 45%); font-weight: lighter">3</span>
+                      <span id="total" style="font-size: 15px;"></span></p>
+                  </div>
+                  <img id="delete" src="images/icon-delete.svg" alt="Delete">
+                </div>
+                <p id="empty">
+                  Your cart is empty.
+                </p>
+                <button id="checkoutBtn">Checkout</button>
+              </div>
+            </div>
+          </div>
+          <div class="avatar-div">
+            <img id="avatar" src="images/image-avatar.png" alt="Avatar">
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="img-div">
+        <div class="jpg-div">
+          <img class="first-image" src="images/image-product-1.jpg" alt="Product 1">
+          <img class="second-image" style="display:none" src="images/image-product-2.jpg" alt="Product 2">
+          <img class="third-image" style="display:none" src="images/image-product-3.jpg" alt="Product 3">
+          <img class="fourth-image" style="display:none" src="images/image-product-4.jpg" alt="Product 4">
+          <div class="button-container first">
+            <div id="nextBtn">
+              <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+                <path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/>
+              </svg>
+            </div>
+            <div id="previousBtn">
+              <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="thumbnail-div">
+          <div class="clicked-div">
+            <img class="thumbnail-img1" src="images/image-product-1-thumbnail.jpg" alt="Thumbnail 1">
+          </div>
+          <div>
+            <img class="thumbnail-img2" src="images/image-product-2-thumbnail.jpg" alt="Thumbnail 2">
+          </div>
+          <div>
+            <img class="thumbnail-img3" src="images/image-product-3-thumbnail.jpg" alt="Thumbnail 3">
+          </div>
+          <div>
+            <img class="thumbnail-img4" src="images/image-product-4-thumbnail.jpg" alt="Thumbnail 4">
+          </div>
+        </div>
+      </div>
+      <div class="information">
+        <h4>SNEAKER COMPANY</h4>
+        <h2>Fall Limited Edition Sneakers</h2>
+        <p>These low-profile sneakers are the perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+        <div class="money">
+          <div class="dollars">
+            <h3>$125.00</h3>
+            <div class="sale">50%</div>
+          </div>
+          <p class="sale-p">$250.00</p>
+        </div>
+        <section>
+          <div class="adding-div">
+            <img id="minus" src="images/icon-minus.svg" alt="Minus">
+            <span id="chosen-quant">0</span>
+            <img id="plus" src="images/icon-plus.svg" alt="Plus">
+          </div>
+          <button id="cartBtn" type="submit">
+            <img src="images/icon-cart copy.svg" alt="Cart Icon">
+            Add to cart
+          </button>
+        </section>
+      </div>
+    </main>
+    <div class="img-div second">
+      <div class="jpg-div">
+        <img id="clear" src="images/icon-close copy.svg" alt="Clear">
+        <img class="fifth-image" src="images/image-product-1.jpg" alt="Product 1">
+        <img class="sixth-image" style="display:none" src="images/image-product-2.jpg" alt="Product 2">
+        <img class="seventh-image" style="display:none" src="images/image-product-3.jpg" alt="Product 3">
+        <img class="eighth-image" style="display:none" src="images/image-product-4.jpg" alt="Product 4">
+        <div class="button-container">
+          <div id="nextBtn1">
+            <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/>
+            </svg>
+          </div>
+          <div id="previousBtn1">
+            <svg width="12" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="thumbnail-div">
+        <div class="clicked-div">
+          <img class="thumbnail-img5" src="images/image-product-1-thumbnail.jpg" alt="Thumbnail 5">
+        </div>
+        <div>
+          <img class="thumbnail-img6" src="images/image-product-2-thumbnail.jpg" alt="Thumbnail 6">
+        </div>
+        <div>
+          <img class="thumbnail-img7" src="images/image-product-3-thumbnail.jpg" alt="Thumbnail 7">
+        </div>
+        <div>
+          <img class="thumbnail-img8" src="images/image-product-4-thumbnail.jpg" alt="Thumbnail 8">
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <div class="overlay-2"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
