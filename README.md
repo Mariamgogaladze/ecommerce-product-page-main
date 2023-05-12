@@ -32,11 +32,9 @@ Welcome to the Ecommerce Website project! This is a responsive and interactive w
  - JavaScript: Interactive functionality and dynamic behavior
 
 
-## Installation
+## Demo
 
- - Clone the repository: git clone https://github.com/your-username/ecommerce-website.git
- - Navigate to the project directory: cd ecommerce-website
- - Open the project files in a code editor of your choice.
+You can try out the live demo of the multi-step form here : https://mariamgogaladze.github.io/ecommerce-product-page-main/
 
 
 ## Usage
